@@ -50,4 +50,25 @@ while True:
         break
 print(razas_G)
 
-# variable.insert (posicion, texto a insertar)
+# lista.insert (posicion, texto a insertar)
+lista_3 = [2, 3, 5]
+r = int(input("Número"))
+lista_3.insert(r)
+print(lista_3)
+
+# lista.extend(lista a insertar)
+lista_3 = [2, 3, 5]
+lista_4 = [1, 8, 6]
+lista_5 = ["a", "b", "c"]
+print(lista_3)
+print(lista_4)
+print(lista_5)
+lista_3.extend(lista_4)
+lista_3.extend(lista_5)
+print(lista_3)
+
+# Función len(nombre de la variable o lista)
+print(len(lista_3))
+print(lista_3[2])
+
+# Función lista.index(elemento a buscar)
