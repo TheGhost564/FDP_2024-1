@@ -19,4 +19,4 @@ jogadores.append(["Thomas Müller", "Camiseta #25", "Posición: Delantero"])
 print("Plantilla ultimo partido Bayern Múnich", "\n", jogadores)
 
 for i in jogadores:
-    print("Nombre: ", i[0], "|| ", i[1], "|| ", i[2])
+    print("Jogador: ", i[0], "|| ", i[1], "|| ", i[2])
